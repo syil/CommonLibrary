@@ -9,13 +9,11 @@ namespace CommonLibrary.IoC
 {
     public class BasicDependencyResolver : IDependencyResolver
     {
-        private Dictionary<Type, object> instanceContainer;
-        private Dictionary<Type, Delegate> instanceContainer;
-        private Dictionary<Type, object> instanceContainer;
+        private Dictionary<Type, object> container;
 
         public BasicDependencyResolver()
         {
-            this.instanceContainer = new Dictionary<Type, object>();
+            this.container = new Dictionary<Type, object>();
         }
 
         public TContract Resolve<TContract>()
@@ -27,15 +25,15 @@ namespace CommonLibrary.IoC
         {
             object resolvedValue;
 
-            if (this.instanceContainer.TryGetValue(contractType, out resolvedValue) && resolvedValue != null)
+            if (this.container.TryGetValue(contractType, out resolvedValue) && resolvedValue != null)
             {
                 if (resolvedValue is Type)
                 {
                     return Activator.CreateInstance((Type)resolvedValue);
                 }
-                else if (resolvedValue.GetType())
+                else if (resolvedValue is Func<object>)
                 {
-                    return ((Delegate)resolvedValue);
+                    return ((Func<object>)resolvedValue).Invoke();
                 }
                 else
                 {
@@ -52,22 +50,17 @@ namespace CommonLibrary.IoC
         public void Register<TContract, TImplementation>()
             where TImplementation : TContract
         {
-            this.instanceContainer[typeof(TContract)] = typeof(TImplementation);
+            this.container[typeof(TContract)] = typeof(TImplementation);
         }
 
         public void Register<TContract>(Func<TContract> constructor)
         {
-            this.instanceContainer[typeof(TContract)] = constructor;
+            this.container[typeof(TContract)] = new Func<object>(() => constructor.Invoke());
         }
 
         public void RegisterInstance<TContract>(TContract obj)
         {
-            this.instanceContainer[typeof(TContract)] = obj;
-        }
-
-        private bool CheckIfExists(Type type)
-        {
-
+            this.container[typeof(TContract)] = obj;
         }
     }
 }
