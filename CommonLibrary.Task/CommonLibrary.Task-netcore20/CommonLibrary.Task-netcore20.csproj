@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <AssemblyName>CommonLibrary.Task</AssemblyName>
+    <RootNamespace>CommonLibrary.Task</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Quartz" Version="2.6.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\CommonLibrary.Core\CommonLibrary.Core-netcore20\CommonLibrary.Core-netcore20.csproj" />
+    <ProjectReference Include="..\..\CommonLibrary.Utility\CommonLibrary.Utility-netcore20\CommonLibrary.Utility-netcore20.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>9e240e1b-f6a7-4a6c-b0c3-ece46b47c683</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>CommonLibrary</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Caching\ICachedObject.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Caching\ICacheProvider.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Collections\IPagedList.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)IoC\IDependencyResolver.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Utilities\ILogger.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Utilities\ILoggerFactory.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="$(MSBuildThisFileDirectory)Collections\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Caching\" />
+  </ItemGroup>
+</Project>

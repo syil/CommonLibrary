@@ -1,0 +1,115 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2009
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CommonLibrary.Core", "CommonLibrary.Core", "{B2BFEE5F-2296-45D5-9E62-A1FE7A16ABFD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CommonLibrary.Utility", "CommonLibrary.Utility", "{8E3BDF5A-8EE0-4779-88DA-0BCF9C0E7CAA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CommonLibrary.Web.Mvc", "CommonLibrary.Web.Mvc", "{EA8CA7BA-2AA2-4BFE-BF40-F27A43A8A7FE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tools", "Tools", "{2814C064-B5C8-47AA-B8A3-3827454FB10E}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "CommonLibrary.Core", "CommonLibrary.Core\CommonLibrary.Core\CommonLibrary.Core.shproj", "{9E240E1B-F6A7-4A6C-B0C3-ECE46B47C683}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "CommonLibrary.Utility", "CommonLibrary.Utility\CommonLibrary.Utility\CommonLibrary.Utility.shproj", "{4426C126-9ABA-43D2-9AE4-56595F6883B3}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "CommonLibrary.Web.Mvc", "CommonLibrary.Web.Mvc\CommonLibrary.Web.Mvc\CommonLibrary.Web.Mvc.shproj", "{10BFC256-C20A-46DE-B438-607A18F53F20}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommonLibrary.Core-netcore20", "CommonLibrary.Core\CommonLibrary.Core-netcore20\CommonLibrary.Core-netcore20.csproj", "{B0834C68-EAB8-4368-82BF-E6C4FBBF632C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonLibrary.Core-net461", "CommonLibrary.Core\CommonLibrary.Core-net461\CommonLibrary.Core-net461.csproj", "{E22AA6DE-5FA0-4239-9ACD-ED117788CB6C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonLibrary.Utility-net461", "CommonLibrary.Utility\CommonLibrary.Utility-net461\CommonLibrary.Utility-net461.csproj", "{72011CA1-EE46-43C6-82AC-63CE388FB1AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonLibrary.Web.Mvc-net461", "CommonLibrary.Web.Mvc\CommonLibrary.Web.Mvc-net461\CommonLibrary.Web.Mvc-net461.csproj", "{CECC9FC1-BFB0-44A4-BF62-FD44A9464389}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommonLibrary.Utility-netcore20", "CommonLibrary.Utility\CommonLibrary.Utility-netcore20\CommonLibrary.Utility-netcore20.csproj", "{5CC6FD40-77F3-4C38-9FC6-D5AF916F1F1C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommonLibrary.Web.Mvc-netcore20", "CommonLibrary.Web.Mvc\CommonLibrary.Web.Mvc-netcore20\CommonLibrary.Web.Mvc-netcore20.csproj", "{B29074FF-E861-4E2A-BC4C-116A7E674595}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CommonLibrary.Task", "CommonLibrary.Task", "{585B6CD3-C54D-4D79-BD93-879378D41BF9}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "CommonLibrary.Task", "CommonLibrary.Task\CommonLibrary.Task\CommonLibrary.Task.shproj", "{9694781A-E4DC-451E-9067-4A1219095DDE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonLibrary.Task-net461", "CommonLibrary.Task\CommonLibrary.Task-net461\CommonLibrary.Task-net461.csproj", "{5F76E95A-AB3B-4F02-A4FE-1C4A62C5CC45}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommonLibrary.Task-netcore20", "CommonLibrary.Task\CommonLibrary.Task-netcore20\CommonLibrary.Task-netcore20.csproj", "{584BD454-DD80-442A-8ACD-6C555335DC53}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonLibrary.Test", "Tools\CommonLibrary.Test\CommonLibrary.Test.csproj", "{C66DD5CE-091F-40AC-BC7C-2126132C2A16}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		CommonLibrary.Web.Mvc\CommonLibrary.Web.Mvc\CommonLibrary.Web.Mvc.projitems*{10bfc256-c20a-46de-b438-607a18f53f20}*SharedItemsImports = 13
+		CommonLibrary.Utility\CommonLibrary.Utility\CommonLibrary.Utility.projitems*{4426c126-9aba-43d2-9ae4-56595f6883b3}*SharedItemsImports = 13
+		CommonLibrary.Utility\CommonLibrary.Utility\CommonLibrary.Utility.projitems*{72011ca1-ee46-43c6-82ac-63ce388fb1af}*SharedItemsImports = 4
+		CommonLibrary.Task\CommonLibrary.Task\CommonLibrary.Task.projitems*{9694781a-e4dc-451e-9067-4a1219095dde}*SharedItemsImports = 13
+		CommonLibrary.Core\CommonLibrary.Core\CommonLibrary.Core.projitems*{9e240e1b-f6a7-4a6c-b0c3-ece46b47c683}*SharedItemsImports = 13
+		CommonLibrary.Web.Mvc\CommonLibrary.Web.Mvc\CommonLibrary.Web.Mvc.projitems*{cecc9fc1-bfb0-44a4-bf62-fd44a9464389}*SharedItemsImports = 4
+		CommonLibrary.Core\CommonLibrary.Core\CommonLibrary.Core.projitems*{e22aa6de-5fa0-4239-9acd-ed117788cb6c}*SharedItemsImports = 4
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B0834C68-EAB8-4368-82BF-E6C4FBBF632C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0834C68-EAB8-4368-82BF-E6C4FBBF632C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0834C68-EAB8-4368-82BF-E6C4FBBF632C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0834C68-EAB8-4368-82BF-E6C4FBBF632C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E22AA6DE-5FA0-4239-9ACD-ED117788CB6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E22AA6DE-5FA0-4239-9ACD-ED117788CB6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E22AA6DE-5FA0-4239-9ACD-ED117788CB6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E22AA6DE-5FA0-4239-9ACD-ED117788CB6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72011CA1-EE46-43C6-82AC-63CE388FB1AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72011CA1-EE46-43C6-82AC-63CE388FB1AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72011CA1-EE46-43C6-82AC-63CE388FB1AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72011CA1-EE46-43C6-82AC-63CE388FB1AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CECC9FC1-BFB0-44A4-BF62-FD44A9464389}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CECC9FC1-BFB0-44A4-BF62-FD44A9464389}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CECC9FC1-BFB0-44A4-BF62-FD44A9464389}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CECC9FC1-BFB0-44A4-BF62-FD44A9464389}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CC6FD40-77F3-4C38-9FC6-D5AF916F1F1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CC6FD40-77F3-4C38-9FC6-D5AF916F1F1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CC6FD40-77F3-4C38-9FC6-D5AF916F1F1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CC6FD40-77F3-4C38-9FC6-D5AF916F1F1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B29074FF-E861-4E2A-BC4C-116A7E674595}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B29074FF-E861-4E2A-BC4C-116A7E674595}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B29074FF-E861-4E2A-BC4C-116A7E674595}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B29074FF-E861-4E2A-BC4C-116A7E674595}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F76E95A-AB3B-4F02-A4FE-1C4A62C5CC45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F76E95A-AB3B-4F02-A4FE-1C4A62C5CC45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F76E95A-AB3B-4F02-A4FE-1C4A62C5CC45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F76E95A-AB3B-4F02-A4FE-1C4A62C5CC45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{584BD454-DD80-442A-8ACD-6C555335DC53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{584BD454-DD80-442A-8ACD-6C555335DC53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{584BD454-DD80-442A-8ACD-6C555335DC53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{584BD454-DD80-442A-8ACD-6C555335DC53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C66DD5CE-091F-40AC-BC7C-2126132C2A16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C66DD5CE-091F-40AC-BC7C-2126132C2A16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C66DD5CE-091F-40AC-BC7C-2126132C2A16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C66DD5CE-091F-40AC-BC7C-2126132C2A16}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9E240E1B-F6A7-4A6C-B0C3-ECE46B47C683} = {B2BFEE5F-2296-45D5-9E62-A1FE7A16ABFD}
+		{4426C126-9ABA-43D2-9AE4-56595F6883B3} = {8E3BDF5A-8EE0-4779-88DA-0BCF9C0E7CAA}
+		{10BFC256-C20A-46DE-B438-607A18F53F20} = {EA8CA7BA-2AA2-4BFE-BF40-F27A43A8A7FE}
+		{B0834C68-EAB8-4368-82BF-E6C4FBBF632C} = {B2BFEE5F-2296-45D5-9E62-A1FE7A16ABFD}
+		{E22AA6DE-5FA0-4239-9ACD-ED117788CB6C} = {B2BFEE5F-2296-45D5-9E62-A1FE7A16ABFD}
+		{72011CA1-EE46-43C6-82AC-63CE388FB1AF} = {8E3BDF5A-8EE0-4779-88DA-0BCF9C0E7CAA}
+		{CECC9FC1-BFB0-44A4-BF62-FD44A9464389} = {EA8CA7BA-2AA2-4BFE-BF40-F27A43A8A7FE}
+		{5CC6FD40-77F3-4C38-9FC6-D5AF916F1F1C} = {8E3BDF5A-8EE0-4779-88DA-0BCF9C0E7CAA}
+		{B29074FF-E861-4E2A-BC4C-116A7E674595} = {EA8CA7BA-2AA2-4BFE-BF40-F27A43A8A7FE}
+		{9694781A-E4DC-451E-9067-4A1219095DDE} = {585B6CD3-C54D-4D79-BD93-879378D41BF9}
+		{5F76E95A-AB3B-4F02-A4FE-1C4A62C5CC45} = {585B6CD3-C54D-4D79-BD93-879378D41BF9}
+		{584BD454-DD80-442A-8ACD-6C555335DC53} = {585B6CD3-C54D-4D79-BD93-879378D41BF9}
+		{C66DD5CE-091F-40AC-BC7C-2126132C2A16} = {2814C064-B5C8-47AA-B8A3-3827454FB10E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {16D23B1C-12F6-4A75-B7B3-52DDED87B602}
+	EndGlobalSection
+EndGlobal

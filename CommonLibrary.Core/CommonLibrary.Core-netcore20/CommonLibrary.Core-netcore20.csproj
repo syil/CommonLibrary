@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <AssemblyName>CommonLibrary.Core</AssemblyName>
+    <RootNamespace>CommonLibrary</RootNamespace>
+  </PropertyGroup>
+
+  <Import Project="..\CommonLibrary.Core\CommonLibrary.Core.projitems" Label="Shared" />
+
+</Project>

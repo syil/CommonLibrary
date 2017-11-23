@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>4426c126-9aba-43d2-9ae4-56595f6883b3</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>CommonLibrary</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Attributes\ColumnNameAttribute.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Attributes\StringValueAttribute.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Attributes\TCIdentityAttribute.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Caching\BasicCacheProvider.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Caching\CachedCollection.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Caching\CachedObject.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Caching\CachedObjectBase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CommonLibraryContainer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Extensions\DataExtensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Extensions\EnumerableExtensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Extensions\EnumExtensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Extensions\ReflectionExtensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Extensions\StringExtensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Extensions\TypeConverterExtensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Extensions\UtilityExtensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)IoC\BasicDependencyResolver.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Objects\DateQuarter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Objects\DateTimeRange.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Objects\OneTimeBoolean.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Collections\PagedList.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Objects\TimeRange.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Utilities\InMemoryLoggerFactory.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Utilities\InMemoryLogger.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="$(MSBuildThisFileDirectory)Collections\" />
+  </ItemGroup>
+</Project>
